@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calstyle.css">
+        
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculator</h2>
+        <input type="number" placeholder="Enter first number" id="number1">
+        <select id="op">
+            <option value=" ">No select</option>
+            <option value="+">Addition</option>
+            <option value="-">Substraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
+            <option value="%">Modulus</option>
+        </select>
+        <input type="number" placeholder="Enter second number" id="number2">
+        <h4>Result</h4>
+        <input type="text" placeholder="0" class="result_calculate" id="result" readonly>
+        <button type="button" onclick="calculator_values()">Calculate</button>
+        <button type="button" id="reset" onclick="get_reset()">Reset</button>
+        <span id="write" style="font-size: 10px;"></span>
+    </div>
+    <script src="scriptcal.js"></script>
+</body>
+</html>

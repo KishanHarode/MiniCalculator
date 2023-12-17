@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,rgb(72, 67, 156) 0%, rgb(40, 50, 158) 39%,rgb(84, 52, 158) 100%);
+}
+
+/* Apply styles to the calculator container */
+.calculator {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff; /* Set your desired background color here */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the calculator title */
+.calculator h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input fields */
+.calculator input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1.3px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+}
+.calculator input[type="number"]:hover{
+    border-color: blue;
+}
+
+
+/* Style the result field */
+.result_calculate {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style the select dropdown */
+.calculator select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1.3px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+}
+.calculator select:hover{
+    border-color: blue;
+}
+
+/* Style the calculate button */
+.calculator button {
+    width: 45%;
+    padding: 10px;
+    margin:10px 0;
+    background-color: rgb(92, 201, 92);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#reset{
+    width:45%;
+    padding:10px;
+    margin-left: 20px;
+    
+    background-color: rgb(192, 58, 58);
+}
+
+/* Change button color on hover */
+.calculator button:hover {
+    background-color: #10f450;
+}
+#reset:hover{
+    background-color: rgb(243, 11, 11);
+}
